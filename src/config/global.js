@@ -3,7 +3,7 @@ export default {
     Name:
       'Fundamentos de programación estructurada y herramientas de desarrollo',
     Description:
-      'Este componente formativo está orientado al reconocimiento, la configuración y el uso eficiente de los editores de código fuente como herramienta fundamental para el desarrollo de software, aplicando la programación estructurada. Se exploran conceptos claves como la estructura de la interfaz de los editores, sus funcionalidades básicas o la configuración del entorno de desarrollo. ',
+      'Este componente formativo está orientado al reconocimiento, la configuración y el uso eficiente de los editores de código fuente como herramienta fundamental para el desarrollo de <em>software</em>, aplicando la programación estructurada. Se exploran conceptos claves como la estructura de la interfaz de los editores, sus funcionalidades básicas o la configuración del entorno de desarrollo. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -53,7 +53,7 @@ export default {
           {
             numero: '1.3',
             titulo: 'Interfaz y estructura ',
-            hash: 't_1_4',
+            hash: 't_1_3',
           },
           {
             numero: '1.4',
@@ -92,7 +92,7 @@ export default {
           {
             numero: '2.3',
             titulo: 'Estructuras',
-            hash: 't_2_4',
+            hash: 't_2_3',
           },
           {
             numero: '2.4',
@@ -163,27 +163,28 @@ export default {
     {
       tema: 'Editor de código Fuente ',
       referencia:
-        'Programador X. (2023). Visual Studio Code: Tutorial (curso completo de VSCode). [Archivo de video] Youtube.  ',
+        'Programador X. (2023). <em>Visual Studio Code</em>: Tutorial (curso completo de VSCode). [Archivo de video] Youtube.  ',
       tipo: 'Vídeo',
       link: 'https://www.youtube.com/watch?v=FzRGSlhQIyY ',
     },
     {
       tema: 'Editor de código Fuente ',
-      referencia: 'Visual Studio Code - code editing. Redefined. (2025). ',
+      referencia:
+        '<em>Visual Studio Code</em> - code editing. Redefined. (2025). ',
       tipo: 'Sitio web',
       link: 'https://code.visualstudio.com/ ',
     },
     {
       tema: 'Editor de código Fuente ',
       referencia:
-        'Geeky Script [@GeekyScript]. (2025). Cómo instalar Visual Studio Code en Windows 10/11 [Actualización 2025]. [Archivo de video] Youtube.  ',
+        'Geeky Script [@GeekyScript]. (2025). Cómo instalar <em>Visual Studio Code</em> en Windows 10/11 [Actualización 2025]. [Archivo de video] Youtube.  ',
       tipo: 'Vídeo',
       link: 'https://www.youtube.com/watch?v=2Gz-uuQWxu4 ',
     },
     {
       tema: 'Editor de código Fuente ',
       referencia:
-        'Roelcode [@roelcode]. (2023). Configura Visual Studio Code para Python y crear proyectos | Paso a paso. [Archivo de video] Youtube.  ',
+        'Roelcode [@roelcode]. (2023). Configura <em>Visual Studio Code</em> para Python y crear proyectos | Paso a paso. [Archivo de video] Youtube.  ',
       tipo: 'Vídeo',
       link: 'https://www.youtube.com/watch?v=MVsNOtvwwlw',
     },
@@ -215,10 +216,10 @@ export default {
     {
       termino: 'Código fuente',
       significado:
-        'es el conjunto de instrucciones escritas por un programador en un lenguaje de programación legible por humanos. Representa la base de cualquier programa informático y debe ser interpretado o compilado para ejecutarse en una máquina. Su calidad influye directamente en el rendimiento, mantenimiento y seguridad del software.',
+        'es el conjunto de instrucciones escritas por un programador en un lenguaje de programación legible por humanos. Representa la base de cualquier programa informático y debe ser interpretado o compilado para ejecutarse en una máquina. Su calidad influye directamente en el rendimiento, mantenimiento y seguridad del <em>software</em>.',
     },
     {
-      termino: 'Desarrollo de software',
+      termino: 'Desarrollo de <em>software</em>',
       significado:
         'es el proceso de diseñar, construir, probar y mantener programas informáticos. Involucra diferentes etapas como análisis, codificación, pruebas y documentación, y puede llevarse a cabo de manera individual o colaborativa. Es una actividad clave en la transformación digital y la automatización de procesos.',
     },
@@ -245,12 +246,12 @@ export default {
     {
       termino: 'Interfaz',
       significado:
-        'es el conjunto de elementos visuales y de interacción que presenta una herramienta o software al usuario. En los editores de código, incluye menús, barras laterales, terminales y paneles que permiten navegar, configurar y escribir código de forma intuitiva.',
+        'es el conjunto de elementos visuales y de interacción que presenta una herramienta o <em>software</em> al usuario. En los editores de código, incluye menús, barras laterales, terminales y paneles que permiten navegar, configurar y escribir código de forma intuitiva.',
     },
     {
       termino: 'Lenguaje de programación',
       significado:
-        'es un conjunto de reglas y sintaxis que los programadores usan para escribir instrucciones que la computadora pueda entender y ejecutar. Ejemplos incluyen Python, Java, C++ y JavaScript.',
+        'es un conjunto de reglas y sintaxis que los programadores usan para escribir instrucciones que la computadora pueda entender y ejecutar. Ejemplos incluyen Python, <em>Java</em>, <em>C++</em> y JavaScript.',
     },
     {
       termino: 'Modularidad',
@@ -260,12 +261,12 @@ export default {
     {
       termino: 'Multiplataforma',
       significado:
-        'hace referencia a la capacidad de un software para funcionar en diferentes sistemas operativos como Windows, macOS y Linux sin necesidad de modificaciones. Esta característica garantiza mayor compatibilidad, accesibilidad y flexibilidad para los usuarios.',
+        'hace referencia a la capacidad de un <em>software</em> para funcionar en diferentes sistemas operativos como Windows, macOS y Linux sin necesidad de modificaciones. Esta característica garantiza mayor compatibilidad, accesibilidad y flexibilidad para los usuarios.',
     },
     {
       termino: 'Programación estructurada',
       significado:
-        'es un paradigma que organiza el código utilizando estructuras de control básicas y funciones. Mejora la claridad, la modularidad y la mantenibilidad del software.',
+        'es un paradigma que organiza el código utilizando estructuras de control básicas y funciones. Mejora la claridad, la modularidad y la mantenibilidad del <em>software</em>.',
     },
     {
       termino: 'Sintaxis',
@@ -275,10 +276,10 @@ export default {
     {
       termino: 'Terminal',
       significado:
-        'es una interfaz de línea de comandos que permite ejecutar instrucciones directamente al sistema operativo o entorno de desarrollo. En editores como Visual Studio Code, la terminal integrada facilita la ejecución de scripts, comandos Git o compilaciones sin salir del entorno de trabajo.',
+        'es una interfaz de línea de comandos que permite ejecutar instrucciones directamente al sistema operativo o entorno de desarrollo. En editores como <em>Visual Studio Code</em>, la terminal integrada facilita la ejecución de scripts, comandos Git o compilaciones sin salir del entorno de trabajo.',
     },
     {
-      termino: 'Visual Studio Code',
+      termino: '<em>Visual Studio Code</em>',
       significado:
         'es un editor de código fuente desarrollado por Microsoft, ampliamente utilizado por su velocidad, versatilidad y soporte para múltiples lenguajes. Incluye terminal integrada, extensiones, depuración, control de versiones y herramientas colaborativas. Es gratuito, multiplataforma y de código abierto.',
     },
@@ -297,17 +298,18 @@ export default {
     },
     {
       referencia:
-        'Maldonado, R. (2024). Descubre la terminal de Visual Studio Code. KeepCoding.  ',
+        'Maldonado, R. (2024). Descubre la terminal de <em>Visual Studio Code</em>. KeepCoding.  ',
       link: 'https://keepcoding.io/blog/terminal-de-visual-studio-code/',
     },
     {
-      referencia: 'Microsoft. (2023). Funciones (C++). Microsoft.com. ',
+      referencia:
+        'Microsoft. (2023). Funciones (<em>C++</em>). Microsoft.com. ',
       link:
         'https://learn.microsoft.com/es-es/cpp/cpp/functions-cpp?view=msvc-170 ',
     },
     {
       referencia:
-        'Stack Overflow. (2024). Integrated development environment. Stackoverflow.Co.  ',
+        '<em>Stack overflow</em>. (2024). Integrated development environment. Stackoverflow.Co.  ',
       link:
         'https://survey.stackoverflow.co/2024/technology#1-integrated-development-environment',
     },

@@ -10,7 +10,7 @@
     .row.mb-5
       .col-lg-1.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/temas/tema2/1.svg", data-aos="zoom-in")
+          img.d-none.d-lg-flex(src="@/assets/curso/temas/tema2/1.svg", data-aos="zoom-in")
       .col-lg-11
         p(data-aos="fade-left") La programación estructurada es una de las formas de utilizar más utilizadas, sobre todo cuando se inicia en el mundo académico de la programación, y pertenece al paradigma de programación imperativo, cuya finalidad está basada en ir indicando paso a paso cómo resolver un problema. Su enfoque radica en buscar que el código sea sencillo, claro, ordenado y de fácil mantenibilidad, utilizando subrutinas y las estructuras de control (secuencia, selección e iteración): 
     
@@ -53,17 +53,17 @@
                   .bloque-texto-d.color-primario.p-4
                     .bloque-texto-d__texto.mb-2
                       i.fas.fa-quote-left
-                      p.mb-0 Esta forma de programar surge del teorema del programa estructurado de Böhm y Jacopini en el año 1966, y fue apoyada por Dijkstra en 1968, quien promovió la eliminación del uso de instrucciones como goto, porque se tornaban confusas haciendo tediosa la programación; logrando que hoy en día se pueda contar con lenguajes de programación como Java, C, Python y C++, los cuales soportan la programación estructurada.
+                      p.mb-0 Esta forma de programar surge del teorema del programa estructurado de Böhm y Jacopini en el año 1966, y fue apoyada por Dijkstra en 1968, quien promovió la eliminación del uso de instrucciones como <em>goto</em>, porque se tornaban confusas haciendo tediosa la programación; logrando que hoy en día se pueda contar con lenguajes de programación como <em>Java</em>, C, <em>Python</em> y <em>C++</em>, los cuales soportan la programación estructurada.
                       i.fas.fa-quote-right
                     .bloque-texto-d__autor.text-white 
                       .h5.mb-0 UNIR, 2022
     
         separador
 
-        .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.1	Principios
         
-        p.mb-5 Antes de comenzar con la escritura de código, es bueno conocer algunos fundamentos que ayudaran a codificar de manera clara, confiable y organizada; para ello es bueno conocer unos principios básicos en la programación estructurada, que servirán de guía para trabajar en el desarrollo de software con la mejor calidad y adoptando buenas prácticas: 
+        p.mb-5 Antes de comenzar con la escritura de código, es bueno conocer algunos fundamentos que ayudaran a codificar de manera clara, confiable y organizada; para ello es bueno conocer unos principios básicos en la programación estructurada, que servirán de guía para trabajar en el desarrollo de <em>software</em> con la mejor calidad y adoptando buenas prácticas: 
 
     .bg-full-width-2.bg-fondo-2
       .p-4.p-md-5
@@ -92,7 +92,7 @@
           .row.align-items-center
             .col-md-6.mb-4.mb-md-0
               h5 Evitar instrucciones de salto incontrolado
-              p.mb-0 No se deben usar sentencias como goto, ya que dificultan el seguimiento del flujo y la comprensión del código.
+              p.mb-0 No se deben usar sentencias como <em>goto</em>, ya que dificultan el seguimiento del flujo y la comprensión del código.
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema2/10.png', alt='Texto que describa la imagen')
@@ -113,16 +113,16 @@
     
     separador
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.2	Características
     
     p.mb-5 A continuación, se presenta un  pódcast  que resume las cualidades esenciales de un programa bien estructurado, con énfasis en claridad, modularidad y facilidad de mantenimiento.
 
     .row.mb-5
-      .col-lg-5.order-lg-2.mb-3.mb-lg-0
+      .col-lg-5.order-2
         figure
           img(src="@/assets/curso/temas/tema2/14.svg", data-aos="zoom-in")
-      .col-lg-7.order-lg-1
+      .col-lg-7.order-1.mb-3.mb-lg-0
         div.bg-color-1.tarjeta.p-4
           .row.justify-content-center.align-items-center
             .col-lg-5
@@ -139,7 +139,7 @@
 
     separador
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.3	Estructuras
     
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
@@ -147,7 +147,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/15.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Todo programa escrito bajo el estándar de la programación estructurada sigue una lógica de programación que permite resolver problemas de una forma sistemática y organizada por medio de tres estructuras básicas: secuencia, selección e iteración. El dominar estas tres estructuras les permite a los programadores tener el control del flujo de un programa, tomar decisiones y automatizar los procesos repetitivos; con lo cual llegan a lograr soluciones eficientes. A continuación se ahonda en cada una de estas tres estructuras, con el fin de que se puedan conocer, dominar y aplicar en futuros desarrollos de software: 
+        p.mb-0 Todo programa escrito bajo el estándar de la programación estructurada sigue una lógica de programación que permite resolver problemas de una forma sistemática y organizada por medio de tres estructuras básicas: secuencia, selección e iteración. El dominar estas tres estructuras les permite a los programadores tener el control del flujo de un programa, tomar decisiones y automatizar los procesos repetitivos; con lo cual llegan a lograr soluciones eficientes. A continuación se ahonda en cada una de estas tres estructuras, con el fin de que se puedan conocer, dominar y aplicar en futuros desarrollos de <em>software</em>: 
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -174,7 +174,7 @@
     .row.justify-content-center
       .col-lg-10
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-1")
-          div(titulo="Código en Python").justify-content-center
+          div(titulo="Código en <em>Python</em>").justify-content-center
             .tarjeta-codigo.p-5.mb-5
               pre.language-html(language="html").mt-5
                 code
@@ -182,7 +182,7 @@
                   | edad_futura = edad_actual + 5
                   | print("Edad dentro de 5 años:", edad_futura)
 
-          div(titulo="Código en C++").justify-content-center
+          div(titulo="Código en <em>C++</em>").justify-content-center
             .tarjeta-codigo.p-5.mb-5
               pre.language-html(language="html").mt-5
                 code
@@ -196,7 +196,7 @@
                   | &nbsp;&nbsp;&nbsp;&nbsp;return 0;
                   | }
 
-          div(titulo="Código en Java").justify-content-center
+          div(titulo="Código en <em>Java</em>").justify-content-center
             .tarjeta-codigo.p-5.mb-5
               pre.language-html(language="html").mt-5
                 code
@@ -231,7 +231,7 @@
 
       .row.justify-content-center
         .col-lg-10
-          div.bg-color-3.py-5.tarjeta
+          div.bg-color-3.p-5.p-lg-0.py-lg-5.tarjeta
             .row.justify-content-center
               .col-lg-4.mb-3.mb-lg-0
                 figure
@@ -256,14 +256,14 @@
                     .col-lg-auto
                       img(src="@/assets/curso/temas/tema2/23.svg", style="max-width: 90px").mx-auto
                     .col-lg
-                      h5 <em>If-elif-else (Python) / else if (C++, Java)</em>
+                      h5 <em>If-elif-else (<em>Python</em>) / else if (<em>C++</em>, <em>Java</em>)</em>
                       p.mb-0 Permite elegir entre varias condiciones. De acuerdo a la que se cumpla, ejecuta un bloque exclusivo. Se emplea cuando hay más de dos condiciones posibles.
                 .bg-color-13.tarjeta.p-4.mb-3(data-aos="fade-left")
                   .row.align-items-start
                     .col-lg-auto
                       img(src="@/assets/curso/temas/tema2/24.svg", style="max-width: 90px").mx-auto
                     .col-lg
-                      h5 <em>Switch-case (C++, Java)</em>
+                      h5 <em>Switch-case (<em>C++</em>, <em>Java</em>)</em>
                       p.mb-0 Maneja múltiples opciones según el valor de una variable, ejecutando el bloque que corresponda. Se recomienda cuando existen opciones fijas, como en un menú.
     
     p.mb-5 Para conocer como se ve la estructura de selección, se comparten unos ejemplos: 
@@ -271,7 +271,7 @@
     .row.justify-content-center
       .col-lg-10
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-1")
-          div(titulo="Código en C++ de <em>if simple</em>").justify-content-center
+          div(titulo="Código en <em>C++</em> de <em>if simple</em>").justify-content-center
             .tarjeta-codigo.p-5.mb-5
               pre.language-html(language="html").mt-5
                 code
@@ -288,11 +288,11 @@
                   |
                   | &nbsp;&nbsp;&nbsp;&nbsp;return 0;
                   | }
-          div(titulo="Código en Java de <em>if else</em>").justify-content-center
+          div(titulo="Código en <em>Java</em> de <em>if else</em>").justify-content-center
             .tarjeta-codigo.p-5.mb-5
               pre.language-html(language="html").mt-5
                 code
-                  | import java.util.Scanner;
+                  | import <em>Java</em>.util.Scanner;
                   |
                   | public class Main {
                   | &nbsp;&nbsp;&nbsp;&nbsp;public static void main(String[] args) {
@@ -307,7 +307,7 @@
                   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
                   | &nbsp;&nbsp;&nbsp;&nbsp;}
                   | }
-          div(titulo="Código en C++ de <em>else if</em>").justify-content-center
+          div(titulo="Código en <em>C++</em> de <em>else if</em>").justify-content-center
             .tarjeta-codigo.p-5.mb-5
               pre.language-html(language="html").mt-5
                 code
@@ -330,11 +330,11 @@
                   |
                   | &nbsp;&nbsp;&nbsp;&nbsp;return 0;
                   | }
-          div(titulo="Código en Java de <em>Switch-case</em>").justify-content-center
+          div(titulo="Código en <em>Java</em> de <em>Switch-case</em>").justify-content-center
             .tarjeta-codigo.p-5.mb-5
               pre.language-html(language="html").mt-5
                 code
-                  | import java.util.Scanner;
+                  | import <em>Java</em>.util.Scanner;
                   |
                   | public class Main {
                   | &nbsp;&nbsp;&nbsp;&nbsp;public static void main(String[] args) {
@@ -403,7 +403,7 @@
         .crd.crd--yelow(data-aos="flip-left")
           figure.mb-3
             img(src="@/assets/curso/temas/tema2/28.svg", alt="alt").img90.m-auto
-          h4.text-center <em>Do-while (C++, Java)</em>
+          h4.text-center <em>Do-while (<em>C++</em>, <em>Java</em>)</em>
           p.text-center.mb-0 Funciona como el <em>while</em>, pero la condición se evalúa después de la primera ejecución, lo que garantiza que el bloque se ejecuta al menos una vez. Se utiliza cuando se requiere que las instrucciones se realicen al menos una vez.
       .col-lg-4.mb-4.mb-lg-0
         .crd.crd--yelow(data-aos="flip-left")
@@ -417,7 +417,7 @@
     .row.justify-content-center
       .col-lg-10
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-1")
-          div(titulo="Código en C++ de <em>while</em>").justify-content-center
+          div(titulo="Código en <em>C++</em> de <em>while</em>").justify-content-center
             .tarjeta-codigo.p-5.mb-5
               pre.language-html(language="html").mt-5
                 code
@@ -433,11 +433,11 @@
                   | &nbsp;&nbsp;&nbsp;&nbsp;return 0;
                   | }
 
-          div(titulo="Código en Java de do <em>while</em>").justify-content-center
+          div(titulo="Código en <em>Java</em> de do <em>while</em>").justify-content-center
             .tarjeta-codigo.p-5.mb-5
               pre.language-html(language="html").mt-5
                 code
-                  | import java.util.Scanner;
+                  | import <em>Java</em>.util.Scanner;
                   |
                   | public class Main {
                   | &nbsp;&nbsp;&nbsp;&nbsp;public static void main(String[] args) {
@@ -453,7 +453,7 @@
                   | &nbsp;&nbsp;&nbsp;&nbsp;}
                   | }
 
-          div(titulo="Código en C++ de else if").justify-content-center
+          div(titulo="Código en <em>C++</em> de else if").justify-content-center
             .tarjeta-codigo.p-5.mb-5
               pre.language-html(language="html").mt-5
                 code
@@ -477,7 +477,7 @@
                   | &nbsp;&nbsp;&nbsp;&nbsp;return 0;
                   | }
 
-          div(titulo="Código en Python del <em>for</em>").justify-content-center
+          div(titulo="Código en <em>Python</em> del <em>for</em>").justify-content-center
             .tarjeta-codigo.p-5.mb-5
               pre.language-html(language="html").mt-5
                 code
@@ -488,31 +488,31 @@
     
     separador
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.4	Funciones y modularidad
     
     .row.mb-5
       .col-lg-1.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/temas/tema2/30.svg", data-aos="zoom-in")
+          img.d-none.d-lg-flex(src="@/assets/curso/temas/tema2/30.svg", data-aos="zoom-in")
       .col-lg-11
         p(data-aos="fade-left") Uno de los principios de la programación estructurada es dividir el código de un programa en partes más pequeñas, que a la vez sean independientes y reutilizables; esto se logra con funciones (conocidas también como subrutinas o procedimientos), las cuales permiten aplicar el principio de modularidad. Cuando se logra entender el concepto de funciones, será más fácil para el programador desarrollar y mantener sus programas. Ahondando en lo conceptos se puede decir que:
     
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Funciones" :icono="require('@/assets/componentes/2.svg')")
         .row.align-items-center.p-5
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4 Funciones
             p Bloque de código que realiza una operación particular dentro de un programa. Puede incluir parámetros de entrada y devolver un valor como salida. Facilitan el encapsulamiento de operaciones comunes en un bloque reutilizable. Se recomienda usar nombres claros y nemotécnicos para identificar fácilmente la función (Microsoft, 2023).
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema2/31.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Modularidad" :icono="require('@/assets/componentes/3.svg')")
         .row.align-items-center.p-5
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4 Modularidad
             p Práctica de dividir un programa en módulos más pequeños, cada uno con funciones y responsabilidades claras. Esta descomposición permite una mejor gestión, mantenimiento y comprensión del programa, en contraste con un código extenso y monolítico (Casero, 2023).
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema2/32.png', alt='Texto que describa la imagen')
     
@@ -523,7 +523,7 @@
         figure
           img(src="@/assets/curso/temas/tema2/33.png", data-aos="zoom-in")
       .col-lg-6
-        .bg-color-12.p-4.mb-3(data-aos="fade-left")
+        .bg-color-12.tarjeta.p-4.mb-3(data-aos="fade-left")
           p La estructura básica de una función se compone generalmente por:
           ul.ms-3.lista-ul--color.mb-0
             li.mb-0.d-flex
@@ -551,7 +551,7 @@
     .row.justify-content-center
       .col-lg-10
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-1")
-          div(titulo="Función en Python").justify-content-center
+          div(titulo="Función en <em>Python</em>").justify-content-center
             .tarjeta-codigo.p-5.mb-5
               pre.language-html(language="html").mt-5
                 code
@@ -563,7 +563,7 @@
                   | area = calcular_area_circulo(r)
                   | print("El &aacute;rea del c&iacute;rculo es:", area)
 
-          div(titulo="Función en C++").justify-content-center
+          div(titulo="Función en <em>C++</em>").justify-content-center
             .tarjeta-codigo.p-5.mb-5
               pre.language-html(language="html").mt-5
                 code
@@ -584,11 +584,11 @@
                   | &nbsp;&nbsp;&nbsp;&nbsp;return 0;
                   | }
 
-          div(titulo="Función en Java").justify-content-center
+          div(titulo="Función en <em>Java</em>").justify-content-center
             .tarjeta-codigo.p-5.mb-5
               pre.language-html(language="html").mt-5
                 code
-                  | import java.util.Scanner;
+                  | import <em>Java</em>.util.Scanner;
                   |
                   | public class Main {
                   | &nbsp;&nbsp;&nbsp;&nbsp;// Definici&oacute;n de la funci&oacute;n
@@ -608,13 +608,13 @@
     .row.mb-5
       .col-lg-1.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/temas/tema2/30.svg", data-aos="zoom-in")
+          img.d-none.d-lg-flex(src="@/assets/curso/temas/tema2/30.svg", data-aos="zoom-in")
       .col-lg-11
         p(data-aos="fade-left") Después de conocer los ejemplos anteriores, hay que tener en cuenta que las funciones no se comportan igual, es decir, algunas pueden devolver un resultado, otras reciben datos y otras simplemente realizan la tarea para la cual fueron creadas. Conocer los diferentes tipos de funciones, le permite a los programadores construir programas mejor organizados.  A continuación la siguiente tabla resume los tipos de funciones que se pueden utilizar: 
     
     .row.justify-content-center.mb-5
       .col-lg-10
-        div.bg-color-8.py-5.tarjeta
+        div.bg-color-8.py-lg-5.p-5.p-lg-0.tarjeta
           .row.justify-content-center
             .col-lg-4.mb-3.mb-lg-0
               figure
@@ -679,10 +679,10 @@
     
     separador
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.5	Ejemplos
     
-    p.mb-5 En este apartado se comparten unos ejemplos de código generado en Python con ChatGPT y corriendo en Visual Studio Code. Lo primero que se hizo fue darle un prompt general para que supiera como iba a trabajar:
+    p.mb-5 En este apartado se comparten unos ejemplos de código generado en <em>Python</em> con <em>ChatGPT</em> y corriendo en <em>Visual Studio Code</em>. Lo primero que se hizo fue darle un <em>Prompt</em> general para que supiera como iba a trabajar:
 
     .row.justify-content-center
       .col-lg-10
@@ -693,13 +693,13 @@
                 img(src='@/assets/curso/temas/tema2/40.svg', alt='')
             .col-lg
               .p-4
-                h5 Prompt inicial
+                h5 <em>Prompt</em> inicial
                 p(data-aos="fade-up") Necesito que actúes como un experto en programación, pero que tengas en cuenta los siguientes parámetros para trabajar: 
-                .bg-color-12.p-4.mb-3(data-aos="fade-left")
+                .bg-color-12.tarjeta.p-4.mb-3(data-aos="fade-left")
                   ul.ms-3.lista-ul--color.mb-0
                     li.mb-2.d-flex
                       i.fas.fa-check-circle.bg-color-14
-                      p.mb-0 Lenguaje de programación a trabajar: Python
+                      p.mb-0 Lenguaje de programación a trabajar: <em>Python</em>
                     li.mb-2.d-flex
                       i.fas.fa-check-circle.bg-color-14
                       p.mb-0 Paradigma de programación: programación estructurada
@@ -713,12 +713,12 @@
                       i.fas.fa-check-circle.bg-color-14
                       p.mb-0 Cuando estés listo me dices para irte dando los problemas a resolver por medio de los programas que vas a generar.
 
-    p.mb-5 Luego se le fueron dando cada uno de los prompt con el que generaría los códigos para los programas solicitados.
+    p.mb-5 Luego se le fueron dando cada uno de los <em>Prompt</em> con el que generaría los códigos para los programas solicitados.
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-1")
       div(titulo="Ejemplo 1: operación aritmética").justify-content-center
-        p <b>Prompt</b>: Necesito un programa que pregunte qué operación aritmética se desea realizar, solicite dos números, y con ellos haga la operación y muestre como resultado: la operación y el valor resultante de la operación.
-        h5.mb-3 Código generado en Python con ChatGPT
+        p <b><em>Prompt</em></b>: Necesito un programa que pregunte qué operación aritmética se desea realizar, solicite dos números, y con ellos haga la operación y muestre como resultado: la operación y el valor resultante de la operación.
+        h5.mb-3 Código generado en <em>Python</em> con <em>ChatGPT</em>
         .tarjeta-codigo.p-5.mb-5
           pre.language-html(language="html").mt-5
             code
@@ -761,13 +761,13 @@
               | calculadora_simple()
         .titulo-sexto.color-acento-contenido
           h5 Figura 4
-          span Pantallazo del código en Visual Studio Code y ejecución en la terminal.
+          span Pantallazo del código en <em>Visual Studio Code</em> y ejecución en la terminal.
         
         figure.mb-5
-          img(src="@/assets/curso/temas/tema2/41.png", alt="Captura de pantalla del terminal en Visual Studio Code que muestra la ejecución de un programa en Python para calcular promedios individuales de estudiantes y el promedio general del grupo, con entradas numéricas y salidas de texto. ")  
+          img(src="@/assets/curso/temas/tema2/41.png", alt="Captura de pantalla del terminal en <em>Visual Studio Code</em> que muestra la ejecución de un programa en <em>Python</em> para calcular promedios individuales de estudiantes y el promedio general del grupo, con entradas numéricas y salidas de texto. ")  
       div(titulo="Ejemplo 2: calculadora").justify-content-center
-        p <b>Prompt</b>: Un estudiante al que se le dañó su calculadora, desea hacer un programa que le permita realizar las 4 operaciones aritméticas.
-        h5.mb-3 Código generado en Python con ChatGPT
+        p <b><em>Prompt</em></b>: Un estudiante al que se le dañó su calculadora, desea hacer un programa que le permita realizar las 4 operaciones aritméticas.
+        h5.mb-3 Código generado en <em>Python</em> con <em>ChatGPT</em>
         .tarjeta-codigo.p-5.mb-5
           pre.language-html(language="html").mt-5
             code
@@ -828,13 +828,13 @@
 
         .titulo-sexto.color-acento-contenido
           h5 Figura 5
-          span Pantallazo del código en Visual Studio Code y ejecución en la terminal.
+          span Pantallazo del código en <em>Visual Studio Code</em> y ejecución en la terminal.
         
         figure.mb-5
-          img(src="@/assets/curso/temas/tema2/42.png", alt="Captura de pantalla de Visual Studio Code con un programa en Python que ejecuta una función de calculadora básica mediante llamadas a funciones de suma, resta, multiplicación y división, junto con la salida en la terminal donde se realiza una suma entre dos números ingresados por el usuario.") 
+          img(src="@/assets/curso/temas/tema2/42.png", alt="Captura de pantalla de <em>Visual Studio Code</em> con un programa en <em>Python</em> que ejecuta una función de calculadora básica mediante llamadas a funciones de suma, resta, multiplicación y división, junto con la salida en la terminal donde se realiza una suma entre dos números ingresados por el usuario.") 
       div(titulo="Ejemplo 3: lista ordenada").justify-content-center
-        p <b>Prompt</b>: Juanito desea ayudar a su profesora, quien ha tomado los nombres de los 10 estudiantes que han ingresado por primera vez a su clase; para ello Juanito necesita crear un programa donde escriba los 10 nombres y se los entregue en orden alfabético ascendente.
-        h5.mb-3 Código generado en Python con ChatGPT
+        p <b><em>Prompt</em></b>: Juanito desea ayudar a su profesora, quien ha tomado los nombres de los 10 estudiantes que han ingresado por primera vez a su clase; para ello Juanito necesita crear un programa donde escriba los 10 nombres y se los entregue en orden alfabético ascendente.
+        h5.mb-3 Código generado en <em>Python</em> con <em>ChatGPT</em>
         .tarjeta-codigo.p-5.mb-5
           pre.language-html(language="html").mt-5
             code
@@ -861,13 +861,13 @@
 
         .titulo-sexto.color-acento-contenido
           h5 Figura 6
-          span Pantallazo del código en Visual Studio Code y ejecución en la terminal.
+          span Pantallazo del código en <em>Visual Studio Code</em> y ejecución en la terminal.
         
         figure.mb-5
-          img(src="@/assets/curso/temas/tema2/43.png", alt="Captura de pantalla de Visual Studio Code con código Python que solicita nombres de estudiantes, los almacena en una lista y los ordena alfabéticamente, junto con la salida en la terminal donde se muestran los nombres ingresados y su ordenación ascendente.") 
+          img(src="@/assets/curso/temas/tema2/43.png", alt="Captura de pantalla de <em>Visual Studio Code</em> con código <em>Python</em> que solicita nombres de estudiantes, los almacena en una lista y los ordena alfabéticamente, junto con la salida en la terminal donde se muestran los nombres ingresados y su ordenación ascendente.") 
       div(titulo="Ejemplo 4: promedio de notas").justify-content-center
-        p <b>Prompt</b>: Un estudiante está cursando 3 materias, cada materia es calificada con 3 notas, donde la nota 1 equivale al 30%, la nota 2 al 30% y la nota 3 al 40% del total del curso. Se necesita obtener el promedio por materia y el promedio general del estudiante.
-        h5.mb-3 Código generado en Python con ChatGPT
+        p <b><em>Prompt</em></b>: Un estudiante está cursando 3 materias, cada materia es calificada con 3 notas, donde la nota 1 equivale al 30%, la nota 2 al 30% y la nota 3 al 40% del total del curso. Se necesita obtener el promedio por materia y el promedio general del estudiante.
+        h5.mb-3 Código generado en <em>Python</em> con <em>ChatGPT</em>
         .tarjeta-codigo.p-5.mb-5
           pre.language-html(language="html").mt-5
             code
@@ -903,13 +903,13 @@
 
         .titulo-sexto.color-acento-contenido
           h5 Figura 7
-          span Pantallazo del código en Visual Studio Code y ejecución en la terminal.
+          span Pantallazo del código en <em>Visual Studio Code</em> y ejecución en la terminal.
         
         figure.mb-5
-          img(src="@/assets/curso/temas/tema2/44.png", alt="Captura de pantalla de Visual Studio Code con código Python que calcula el promedio ponderado de un estudiante en tres materias y el promedio general, junto con la salida en la terminal que muestra los datos ingresados y los resultados de cada cálculo.") 
+          img(src="@/assets/curso/temas/tema2/44.png", alt="Captura de pantalla de <em>Visual Studio Code</em> con código <em>Python</em> que calcula el promedio ponderado de un estudiante en tres materias y el promedio general, junto con la salida en la terminal que muestra los datos ingresados y los resultados de cada cálculo.") 
       div(titulo="Ejemplo 5: venta de productos electrónicos").justify-content-center
-        p <b>Prompt</b>: Ricardo está vendiendo dispositivos electrónicos. Carlos le ha hecho una compra y necesita hacerle la factura. Para hacer la factura necesita saber la cantidad de dispositivos vendidos, el valor del dispositivo vendido, el descuento por la venta, el impuesto por la venta y el total a pagar en la factura
-        h5.mb-3 Código generado en Python con ChatGPT
+        p <b><em>Prompt</em></b>: Ricardo está vendiendo dispositivos electrónicos. Carlos le ha hecho una compra y necesita hacerle la factura. Para hacer la factura necesita saber la cantidad de dispositivos vendidos, el valor del dispositivo vendido, el descuento por la venta, el impuesto por la venta y el total a pagar en la factura
+        h5.mb-3 Código generado en <em>Python</em> con <em>ChatGPT</em>
         .tarjeta-codigo.p-5.mb-5
           pre.language-html(language="html").mt-5
             code
@@ -957,13 +957,13 @@
 
         .titulo-sexto.color-acento-contenido
           h5 Figura 8
-          span Pantallazo del código en Visual Studio Code y ejecución en la terminal.
+          span Pantallazo del código en <em>Visual Studio Code</em> y ejecución en la terminal.
         
         figure.mb-5
-          img(src="@/assets/curso/temas/tema2/45.png", alt="Captura de pantalla de Visual Studio Code con código Python para calcular el valor total de una compra de productos electrónicos aplicando descuento e impuesto, junto con la salida en la terminal que presenta los datos ingresados y el detalle de la factura generada.") 
+          img(src="@/assets/curso/temas/tema2/45.png", alt="Captura de pantalla de <em>Visual Studio Code</em> con código <em>Python</em> para calcular el valor total de una compra de productos electrónicos aplicando descuento e impuesto, junto con la salida en la terminal que presenta los datos ingresados y el detalle de la factura generada.") 
       div(titulo="Ejemplo 6: venta de leche").justify-content-center
-        p <b>Prompt</b>: en la finca La Costa, todos los días se está vendiendo la leche a la empresa la Pradera. El valor del litro de leche es $2.000. La leche se paga quincenal. Se necesita saber la cantidad de litros producidos desde el día 1 al día 15. Se necesita saber el total de leche vendida y el total de dinero recibido por venta de leche.
-        h5.mb-3 Código generado en Python con ChatGPT
+        p <b><em>Prompt</em></b>: en la finca La Costa, todos los días se está vendiendo la leche a la empresa la Pradera. El valor del litro de leche es $2.000. La leche se paga quincenal. Se necesita saber la cantidad de litros producidos desde el día 1 al día 15. Se necesita saber el total de leche vendida y el total de dinero recibido por venta de leche.
+        h5.mb-3 Código generado en <em>Python</em> con <em>ChatGPT</em>
         .tarjeta-codigo.p-5.mb-5
           pre.language-html(language="html").mt-5
             code
@@ -993,13 +993,13 @@
 
         .titulo-sexto.color-acento-contenido
           h5 Figura 9
-          span Pantallazo del código en Visual Studio Code y ejecución en la terminal.
+          span Pantallazo del código en <em>Visual Studio Code</em> y ejecución en la terminal.
         
         figure.mb-5
-          img(src="@/assets/curso/temas/tema2/46.png", alt="Captura de pantalla de Visual Studio Code con código Python que calcula la cantidad total de leche vendida durante 15 días y el dinero recibido, junto con la salida en la terminal que incluye los litros ingresados por día y un resumen con el total en litros y en valor monetario. ") 
+          img(src="@/assets/curso/temas/tema2/46.png", alt="Captura de pantalla de <em>Visual Studio Code</em> con código <em>Python</em> que calcula la cantidad total de leche vendida durante 15 días y el dinero recibido, junto con la salida en la terminal que incluye los litros ingresados por día y un resumen con el total en litros y en valor monetario. ") 
       div(titulo="Ejemplo 7: entrenamiento atlético").justify-content-center
-        p <b>Prompt</b>: un atleta aficionado se está preparando para la media maratón de la independencia realizada en Valledupar. El correrá en la categoría de 5 kilómetros. El récord histórico está en 25 minutos. Después de un entrenamiento riguroso, él está haciendo el recorrido por 5 días, en donde lleva una libreta y anota el tiempo que se toma en el recorrido de los 5 kilómetros, y quiere saber cuánto le falta por día para batir el récord histórico. También desea saber el promedio de tiempo que se ha tomado en el recorrido de los 5 días.
-        h5.mb-3 Código generado en Python con ChatGPT
+        p <b><em>Prompt</em></b>: un atleta aficionado se está preparando para la media maratón de la independencia realizada en Valledupar. El correrá en la categoría de 5 kilómetros. El récord histórico está en 25 minutos. Después de un entrenamiento riguroso, él está haciendo el recorrido por 5 días, en donde lleva una libreta y anota el tiempo que se toma en el recorrido de los 5 kilómetros, y quiere saber cuánto le falta por día para batir el récord histórico. También desea saber el promedio de tiempo que se ha tomado en el recorrido de los 5 días.
+        h5.mb-3 Código generado en <em>Python</em> con <em>ChatGPT</em>
         .tarjeta-codigo.p-5.mb-5
           pre.language-html(language="html").mt-5
             code
@@ -1038,12 +1038,12 @@
 
         .titulo-sexto.color-acento-contenido
           h5 Figura 10
-          span Pantallazo del código en Visual Studio Code y ejecución en la terminal.
+          span Pantallazo del código en <em>Visual Studio Code</em> y ejecución en la terminal.
         
         figure.mb-5
-          img(src="@/assets/curso/temas/tema2/47.png", alt="Captura de pantalla de Visual Studio Code con código Python para registrar los tiempos diarios de entrenamiento de un atleta, compararlos con un récord y calcular el promedio semanal, junto con la salida en la terminal que muestra las diferencias por día y el promedio final en minutos. ")           
+          img(src="@/assets/curso/temas/tema2/47.png", alt="Captura de pantalla de <em>Visual Studio Code</em> con código <em>Python</em> para registrar los tiempos diarios de entrenamiento de un atleta, compararlos con un récord y calcular el promedio semanal, junto con la salida en la terminal que muestra las diferencias por día y el promedio final en minutos. ")           
     
-    p.mb-5 Como se ha podido verificar en los diferentes ejemplos, los códigos fueron generados con la versión gratuita de ChatGPT y probados en el editor de código Visual Studio Code. Hay que tener presente que para que el código pueda correr sin problemas, deben tener instalado Python y configurado el editor. Se hace la salvedad, porque algunos intentan correr el código de cualquier lenguaje, pero no tienen instaladas las extensiones o cualquier otro recurso tanto en el editor como en el equipo para que el código pueda ser ejecutado sin ningún problema. 
+    p.mb-5 Como se ha podido verificar en los diferentes ejemplos, los códigos fueron generados con la versión gratuita de <em>ChatGPT</em> y probados en el editor de código <em>Visual Studio Code</em>. Hay que tener presente que para que el código pueda correr sin problemas, deben tener instalado <em>Python</em> y configurado el editor. Se hace la salvedad, porque algunos intentan correr el código de cualquier lenguaje, pero no tienen instaladas las extensiones o cualquier otro recurso tanto en el editor como en el equipo para que el código pueda ser ejecutado sin ningún problema. 
 
     .row.mb-5
       .col-lg-4.order-lg-2.mb-3.mb-lg-0
@@ -1052,7 +1052,7 @@
       .col-lg-8.order-lg-1
         .bg-color-15.p-4(data-aos="fade-left")
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/temas/tema2/48.png", style="max-width: 300px").mx-auto
             .col-lg
               p.mb-0 <b>Recomendación</b>: para las personas que desean aprender o asimilar mejor sus conocimientos, pueden intentar desarrollar el programa o en su defecto generarlo en la IA gen y luego escribirlo a mano en una hoja, después digitarlo en el editor; esto se hace con el fin de ir estimulando su memoria muscular, lo cual le ayuda a irse familiarizando con el lenguaje de programación, ir estimulando la lógica, ir  practicando y cuando menos lo piense podrá ir desenvolviéndose y codificando sus propios programas.
