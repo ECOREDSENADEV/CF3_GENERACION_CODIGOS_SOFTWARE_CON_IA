@@ -2,31 +2,302 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 32%
+    right: 63%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 18%
+    right: 10%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 61%
+    right: 17%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
+
 .banner-principal .tarjeta
   background-position: left 50% !important
 
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 400px !important
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+
 
 .banner-interno__titulo__icono i
   color: $color-primario
 
+.banner-interno__fondo
+  background-image: url("../assets/curso/banner.png") !important
+
 figcaption
   font-weight: normal
+
+.tarjeta-codigo
+  border-radius: 10px
+  overflow: hidden
+  position: relative
+  background-color: #110628
+  &:before
+    position: absolute
+    content: ''
+    height: 55px
+    background-color: #3a1d71
+    width: 100%
+    top: 0
+    left: 0
+  &:after
+    position: absolute
+    content: url('../assets/curso/temas/botones.svg')
+    top: 0
+    left: 0
+    transform: translate(20px, 20px)
+pre code
+    color: $white
+code[class*=language-], pre[class*=language-] 
+    background-color: #110628 !important
+
+
+///////////////////BACKGROUND COLOR////////////
+.bg-color
+  &-1
+    background-color: #41484B
+  &-2
+    background-color: #B3B6B7
+  &-3
+    background-color: #B5C7D0
+  &-4
+    background-color: #E9FDFE
+    border: 2px solid #1BEBF5
+  &-5
+    background-color: #F8E32A
+  &-6
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(209, 251, 253, 1) 20%, rgba(209, 251, 253, 1) 80%, rgba(255, 255, 255, 1) 100%)
+  &-7
+    color: #958919 !important
+  &-8
+    background-color: #FCF3AA
+  &-9
+    background-color: #E1E8EC
+  &-10
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(225, 232, 236, 1) 20%, rgba(225, 232, 236, 1) 80%, rgba(255, 255, 255, 1) 100%)
+  &-11
+    color: #1BEBF5
+  &-12
+    background-color: #FDF9D4
+  &-13
+    background-color: #E9FDFE
+  &-14
+    color: #108D93 !important
+  &-15
+    background-color: #A4F7FB
+  &-white
+    background-color: #fff
+// Full Width Background
+.bg-full-width
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-full-width-2
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/bg1.svg") !important
+    background-position: bottom
+  &-2
+    background-image: url("../assets/curso/bg2.png") !important
+    background-position: bottom
+  &-3
+    background-image: url("../assets/curso/bg3.svg") !important
+    background-position: bottom
+  //&-slider
+    background-image: url("../assets/bg/bg-slider.svg") !important
+    background-position: bottom
+
+.barra-avance__boton--regresar span
+  color: white !important
+
+.bloque-texto-d 
+  border-top: none
+.bloque-texto-d:before 
+  top: 77%
+
+//////////CUSTON TABLA//////////////
+.tabs-c__content-item
+  background-color: #FEFCEA !important
+  border: 1px solid #F8E32A !important
+.tabla-a.color-acento-botones thead
+  border: none
+
+
+//////////////CUSTON SLYDER////////
+.slyder-a__bullets__item 
+  background-color: #DDD8A7
+  border: #DDD8A7
+.slyder-a__bullets__item--active
+  background-color: #C7B622
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: #CB03E0
+
+/////////////CUSTON ACORDION/////////////
+.acordion__accion__btn--a
+  background-color: #CB03E0!important
+.acordion__activo
+  background-color: #FDF9D4 !important
+
+.acordion__titulo 
+  h3
+    color: white !important
+.acordion__activo
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
+.acordion__accion__btn--a i
+  color: white
+
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #D1FBFD
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: #D9DADB
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+  &.crd--yelow
+    padding: 2rem
+    height: 100%
+    background-color: #FCF3AA
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: #D9DADB
+      .bottomCircle
+        &::before
+          background-color: #FED981
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C5E5FE
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #DDEDF8 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+///// utilidades --------------------------------------
+.img65
+  width: 65px  
+.img90
+  width: 90px  
+.img250
+  width: 250px  
+.brd--rad
+  border-radius: 20px
+.hr--line
+  margin: 1rem 0
+  width: 100%
+  height: 1px  
+  background-color: #B0C0D2
+.b--rad
+  border-radius: 0px 0px 20px 20px 
+.bg--gradientBlue        
+  background: linear-gradient(0deg, rgba(215,236,252,1) 0%, rgba(239,246,252,1) 100%)
+
+.dialogo.color-primario .dialogo__words__word
+  color: #3c7792 !important
+
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #F8E32A
+  border-radius: 10px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: -30px
+  width: 50px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 20px
+
+.tabs-b__content-item, .tabs-b__tab--active
+  background-color: #F8F9FA
